@@ -1,0 +1,610 @@
+
+<!-- saved from url=(0169)C:\xampp\htdocs\poloko\Education/login.html.htm?username=skleshota%40gmail.com&password=polokoijub&email=thabang.pinyane%40bothouniversity.com#START -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+	input[type="radio"] {
+		display: none;
+	}
+	.nav{
+		display: flex;
+		background: #053D63;
+		position: fixed;
+		top:0;
+		left:0;
+		height:37px;
+		width:130%;
+		box-shadow: 1px 2px 2px 3px #f3f3f3;
+	}
+	.bars{
+		float: right;color:#fff;
+		margin-left:390px;
+		margin-top: 10px;
+		
+	}
+	h3{
+		font-family: log;
+	}
+	label{
+		margin:9px;
+		font-family: none;
+		font-size:2.1vh;
+		font-weight: bolder;
+	}
+	.nm{
+		font-family: log;
+	font-size:30px;
+		font-weight:  bold;
+		color:#fff;
+		background: transparent;
+		margin-bottom: 10px;
+	}
+	.box{
+		margin-top:20px;
+		display: flex;
+		
+	}
+
+	.box img{
+		margin-top:20px;
+	}
+	.intro{
+		margin-top:190px;
+		margin-left:110px;
+	}
+	.style{
+		display:flex;
+		border: 1px solid #10EAFF;
+		border-radius: 40px;
+		width:400px;
+	}
+
+	.bnt{
+		border-radius: 40px;
+		width:100px;
+		height:60px;
+		background:#fff;
+	}
+	
+	.bnt1{
+		border-radius: 40px;
+		width:300px;
+		height:60px;
+		color:#fff;
+		background:#0A3B46;
+	}
+	
+			.style1{
+		display:flex;
+		border: 1px solid #10EAFF;
+		border-radius: 40px;
+		width:300px;
+	}
+	.bnt2{
+		border-radius: 40px;
+		width:100px;
+		height:40px;
+		background:#fff;
+	}
+	
+	.bnt3{
+		border-radius: 40px;
+		width:300px;
+		height:40px;
+		color:#fff;
+		background:#0A3B46;
+	}
+	
+		.style3{
+		display:flex;
+		border: 1px solid #10EAFF;
+		border-radius: 40px;
+		width:200px;
+	}
+	.bnt-2{
+		border-radius: 40px;
+		width:100px;
+		height:40px;
+		background:#fff;
+	}
+	
+	.bnt-3{
+		border-radius: 40px;
+		width:200px;
+		height:40px;
+		color:#fff;
+		background:#0A3B46;
+	}
+	button{
+		border: none;
+		font-weight: bold;
+	}
+	.card{
+		width:300px;
+		height: auto;
+		box-shadow: 1px -8px 8px 8px #f4f4f4;
+		margin:55px;
+	}
+	.search input{
+		margin-top:5px;
+		margin-left:120px;
+		width:200px;
+		border-radius: 10px;
+		height:30px;
+	}
+
+.search	input::placeholder{
+text-align: center;
+	}
+	.wel{
+		font-family: log;
+		font-size:19px;
+		
+	}
+	.by{
+		font-size: 14px;
+		margin-top:3px;
+	}
+	.pr{
+		display: flex;
+	}
+	.learn{
+		width: 300px;
+		height:40px;
+		border-radius: 30px;
+	color:#fff;
+		background:#0A3B46;
+	}
+	.our{
+		margin-left:300px;
+		font-size: 3vh;
+	}
+	.topic{
+		font-family: log;
+		font-size:15px;
+	}
+	.videos{
+		font-size:15px;
+		margin-left:250px;
+	}
+.project{
+	box-shadow: 1px -8px 8px 8px #f4f4f4;
+	width:80%;
+	display: flex;
+	margin:20px;
+}
+.img-1{
+	float: left;
+	display: flex;
+}
+.left{
+	margin-left:50px;
+}
+.img-1 img{
+	border-radius:100px;
+}
+.more{
+	width: 300px;
+	background:#fff;
+	margin-left:300px;
+height:40px;
+border-radius:50px;
+border: 1px solid #000;
+
+}
+h3{
+	font-size: 15px;
+}
+label a{
+	text-decoration: none;
+	color:#fff;
+}
+.footr{
+	background: #053D63;
+		position:relative;
+		bottom:0;
+		left:0%;
+		height:100px;
+		width:130%;
+}
+.for{
+margin-top:0;
+position:absolute;
+color:#000;
+font-size:3vh;
+}
+.contact{
+	background:#ffff;
+	box-shadow: 1px -8px 8px 8px #f4f4f4;
+	width:400px;
+}
+textarea{
+	width:300px;
+	height: 200px;
+	
+}
+@font-face {
+	font-family: log;
+	src: url(font/fonts/font_28.ttf);
+}
+body{
+font-size: 15px;
+}
+.contact input{
+	width:300px;
+	height:40px;
+	background:#ffff;
+	border:1px solid #999;
+	border-radius: 9px;
+
+}
+.popup{
+	background-image: linear-gradient(to top right,rgb(154, 174, 175) 50%,#fff 50%);
+	color: #ffff;
+	display:table;
+	width: 100%;
+	height:100%;
+	position:absolute;
+
+left: 0px;
+margin-top :10px;
+margin-left: 200px;
+	visibility: hidden;
+	
+}
+.popup:target{
+	visibility: visible;
+	
+}
+.close{
+color:#fff;
+}
+.open{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+align-items: center;
+place-items: center ;
+}
+.acc input{
+width:300px;
+height: 40px; border-radius: 9px;
+background-image: linear-gradient(to top right,rgb(5, 75, 78) 50px,rgb(16, 62, 77) 40px);
+animation: move 1s infinite;	
+margin-top: 6px;
+color: #fff;
+border:2px solid #fff;
+}
+@keyframes move{
+0%{
+	background-position: -250px -0px;
+	
+}
+}
+.acc input::placeholder{
+color:#fff;
+}
+.acc input:focus{
+border: 3px solid rgb(114, 138, 158);
+background-color: rgb(1, 22, 22);
+color: #fff;
+}
+.acc{
+margin-left: 400px;
+width:300px;
+height: 50px;
+}
+input[type="submit"]:hover{
+background:rgb(3, 22, 37);
+color:#fff
+}
+input a{
+text-decoration: none;
+outline: none;
+color: #000;
+font-size: 5vh;
+}
+button a{
+text-decoration: none;
+color: #000
+
+}
+.bnt1 a{
+text-decoration: none;
+color: #fff;
+
+}
+form img{
+border-radius: 100px;
+}
+.row button{
+background:rgb(5, 75, 78);
+color: #fff;
+width: 100px;
+border-radius: 10px;
+height: 40px;
+margin-top: 10px;
+}
+.forget{
+float: right;
+margin-top: 19px;
+}
+
+</style>
+	</head><body>
+	<div class="nav">
+	<button class="nm"><span class="font">BD</span>-School </button>
+	<div class="search"><input type="search" placeholder="search">
+	</div><div class="bars"><b><label for="tab0">
+		<a href="#home">Home</a></label> <label>
+			<a href="#sv">Services</a></label><label><a href="#pro">Projects</a></label>
+			<label for="tab2"><a href="#about">About us</a></label>
+	<label for="tb">
+		<a href="#con">Contact</a></label>
+		<label><a href="education.php.htm">Login</a></label>
+	</b></div>
+	</div>
+	<div class="tabs">
+<div class="home">
+
+<input type="radio" name="tabs" id="tab0" checked="">
+  
+<div class="content">
+<div class="box" id="home">
+	<img src="./login.html_files/home-img.svg" width="40%"><div class="intro"><b class="wel">Welcome To BD-School</b><br>
+		<span class="by">
+			code with us,best projects and source code to help you learn,<br> this is all about designing, be an Expect on Designing Make everything possible.<br>Code using your phone!
+			</span><br><br>
+			<div class="style">
+				<button class="bnt"><a class="login" href="#START">LOGIN</a></button>
+					<button class="bnt1"><a href="#sign">SIGN IN</a></button>
+			</div>
+				</div>
+			
+	</div>
+</div>
+<div class="popup" id="START">
+	<div class="top">
+		<a href="#" class="stop"><img src="cl.png" width="40px"/></a>
+
+	<div class="news">
+		<br><br><br><br>
+		<div class="acc">
+			<form  action="http://localhost/poloko/Education/form.php" method="post">
+				<center><label for="demo1" ><img  src="username.png" width="80" id="result1"  for="demo1" id="profile" required></label><input type="file" id="demo1" value="add" onchange="readimg();" style="display: none;"><button class="cl" onclick="w3_close()"> &times;</button><br>
+					<br><h4  style="color:#000;">login or create account to explore more</h4></center>
+				<input type="Name" name="username" placeholder="username" required><br>
+				<input type="password" name="password" placeholder="Password" ><br>
+				
+				<input type="email" name="email" placeholder="Email" required><br>
+				<input type="submit" value="LOGIN">
+				<a href="#sign"><input type="button" class="sign" value="CREATE  ACCOUNT"></a>
+				<div class="row"><button class="rest" type="reset">REST</button>
+					<button class=>FORGET Password?</span>
+				</form>
+		</div>
+	</div></div>
+
+	<div class="popup" id="sign">
+		<div class="top">
+			<a href="#" class="stop"><img src="cl.png" width="40px"/></a>
+		<div class="news">
+			<br><br><br><br>
+			<div class="acc">
+				<form>
+					<center>><label for="demo2" ><img  src="username.png" width="80" id="result2"  for="demo2" id="profile" ></label><input type="file" id="demo1" value="add" onchange="img();" style="display: none;"><button class="cl" onclick="w3_close()"> &times;</button><br>
+					</center>
+	
+					<input type="Name" name="username" placeholder="username"><br>
+					<input type="password" name="password" placeholder="Password"><br>
+					<input type="password" name="password" placeholder="Cornfirm password"><br>
+					<input type="Number" name="Phone" placeholder="Phone number"><br>
+				
+					<input type="email" name="email" placeholder="Email"><br>
+					<input type="radio" value="gender" name="male">
+					<input type="submit" value="CREATE ACCOUNT">
+					<a href="#START"><input type="button" class="sign" value="LOGIN"></a>
+					<div class="row"><button class="rest" type="reset">REST</button>
+						<span class="forget">FORGET Password?</span>
+					
+				</form>
+			</div>
+		</div></div>
+</div></div>
+</div></div>
+
+	
+
+<center><h3 class="our">Our&nbsp;Services
+
+</h3></center>
+<div class="pr" id="sv">
+<div class="card">
+	<img src="./login.html_files/s-3.svg" width="300"><br>
+<center>	<b class="topic">Web design</b></center>
+	<br>Learn to make
+	<li> Nav-bars</li>
+	<li>Content positioning</li><li>perfect Background colors</li>
+	<li>ect....</li>
+<br>
+			<div class="style1">
+				<button class="bnt2">Watch video</button>
+					<button class="bnt3">START</button>
+			</div>
+	</div>
+
+	<div class="card">
+	<img src="./login.html_files/s-6.svg" width="300"><br>
+<center>	<b class="topic">App design</b></center>
+	<br>
+Learn To make quide apps,and
+<br><li>Poems app</li>
+<li>Dawings app</li>
+<li>ARTICLE APPS</li>
+<li>Ect....</li>
+	<br>
+		
+<div class="style1">
+				<button class="bnt2">watch video</button>
+					<button class="bnt3">START</button>
+			</div>
+	</div>
+	<div class="card">
+	<img src="./login.html_files/s-5.svg" width="300"><br>
+<center>	<b class="topic">App Modding</b></center>
+	<br>Learn to
+	Edit any app,change<br>
+		<li>Icon</li>
+		<li>App name</li>
+		<li>Change background color</li>
+	<li>ect....</li>
+	 <br>		<div class="style1">
+		<button class="bnt2">WATCH VIDEO</button>
+			<button class="bnt3">START</button>
+	</div>
+	</div>
+</div>	
+	
+	
+	<div class="tabs">
+ 
+	 <div class="content" id="pro">
+		 <center> <h3 class="Videos">Basics projects</h3></center>
+		 <div class="project">
+			 <div class="img-1">
+		 <img src="./login.html_files/download.jpg" width="200"><div class="left">
+			 <b>Learn how to make loading bar(html&amp;css only)</b><br>
+	   In this project you need: <br><li>Phone</li> <li>Qouda App-click here to download</li>
+	   
+	  
+	   <br><br>
+			 <div class="style3">
+				<button class="bnt-2"><a href="C:\xampp\htdocs\poloko\Education/education.html.htm">&gt;View More</a></button>
+					<button class="bnt-3">Source code</button>
+
+	   <div>
+	 </div>
+  </div>
+  
+  
+  </div>
+  <br>
+	  </div>
+	  </div>
+  <br><br>
+	  
+	  
+		  <div class="project">
+			 <div class="img-1">
+		 <img src="./login.html_files/download.jpg" width="200"><div class="left">
+			 <b>Learn how to make <br>Tab buttons(html&amp;css only)</b><br>
+	   In this project you need: <br><li>Phone</li> <li>Qouda App-click here to download</li>
+	   
+	  
+	   <br><br>
+			 <div class="style3">
+				<button class="bnt-2">View More</button>
+					<button class="bnt-3">Source code</button>
+
+	   <div></div>
+	 </div>
+  </div></div></div>
+  
+	  <div class="project">
+			 <div class="img-1">
+		 <img src="./login.html_files/download.jpg" width="200"><div class="left">
+			 <b>Learn how to make <br>ALERT BOX (html&amp;css only)</b><br>
+	   In this project you need: <br><li>Phone</li> <li>Qouda App-click here to download</li>
+	   
+	  
+	   <br><br>
+			 <div class="style3">
+				<button class="bnt-2">View More</button>
+					<button class="bnt-3">Source code</button>
+
+	   <div>
+	 </div>
+  </div>  <div></div>
+	 </div>
+ 
+ 
+	</div>
+	</div>
+	<center>
+	 <button class="more">View More</button></center>
+	 
+	 
+	 <center>
+		 
+		 <div id="about">
+		 <h3 class="videos">About us</h3>
+		 
+		 
+		 <div class="box">
+	<img src="./login.html_files/price-img-3.svg" width="40%"><div class="intro"><b class="wel"> BD-School of Creation</b><br>
+		<span class="by">
+			We make Learning easy for those who cant afford Computers or laptops to learn using their phone,So That the young legends can create and share/sell.Enjoy coding by SELLING and helping others
+			</span><br><br>
+		
+				</div>
+	</div>
+</div>
+	</center></div>
+</div>
+
+	 
+		<div class="box">
+	<img src="./login.html_files/oops.svg" width="30%"><div class="intro"><b class="wel">Contact Us</b><br>
+		<span class="by">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<div class="contact" id="con"><center><form></form>
+				<input type="name" placeholder="Full name"><br><br>
+						 <input type="Email" placeholder="Email"><br><br>
+				
+							  <input type="Number" placeholder="Phone number"><br><br>
+				<textarea placeholder="massage here.."></textarea>
+							</center></div><br>
+							<div class="style3">
+							   <button class="bnt-2">reset</button>
+								   <button class="bnt-3">send</button>
+						   </div>
+		 
+			</span><br><br>
+		
+				</div>
+	</div>
+
+	
+
+
+	 
+	<script type="text/javascript">
+		function readimg() {
+		   var reader = new FileReader();
+		   var file = document.getElementById('demo1').files[0];
+	 
+		   reader.onload = function(e) {
+			document.getElementById('result1').src = e.target.result;
+		   }
+	 
+		   reader.readAsDataURL(file);
+		}
+	 </script>
+		 	 
+	<script type="text/javascript">
+		function img() {
+		   var reader = new FileReader();
+		   var file = document.getElementById('demo2').files[0];
+	 
+		   reader.onload = function(e) {
+			document.getElementById('result2').src = e.target.result;
+		   }
+	 
+		   reader.readAsDataURL(file);
+		}
+	 </script>
+		 
+		 
+	 
+	 <script>
+		window.onload = function() {
+			document.getElementById('welcome').innerText = "Hello, " + sessionStorage.getItem('userName');
+		};
+	</script></body></html>
