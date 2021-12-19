@@ -1,0 +1,168 @@
+<html>
+    <title>HOme</title>
+    <style>
+.nav{
+    background:#000;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+b{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    font-weight: bolder;
+    
+}
+.bars{
+    float: right;
+    margin-left:80%;
+    margin-top: 10px;
+}
+.bar{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    height: 40px;
+    width: 70px;
+}
+.bar:hover{
+    border-bottom: 3px solid rgb(23, 162, 243);
+}
+.log .bar{
+    position: absolute;
+    top: 10px;
+    right:0px;
+}
+.home{
+    margin-top: 50px;
+    width: 100%;
+    height: 80%;
+    
+    background: #000;
+    background-repeat: no-repeat;
+    
+    position: absolute;
+    top: 9px;
+    left: 0px;
+}
+.lg{
+    display: flex;
+    color:#fff;
+}
+.ab{
+    margin: 80px;
+}
+.in{
+    visibility: hidden;
+    position:absolute;
+    z-index: 1;
+    width: 230px;
+    height: 200px;
+    background:#000;
+    transition:800s;
+    margin-right: 10px;
+    box-shadow:  1px 6px 6px 6px#111;
+}
+.log:hover .in{
+    visibility: visible;
+}
+.in img{
+    border-radius: 100px;
+    box-shadow:  1px 6px 6px 6px#111;
+}
+form input{
+    margin-left: 40px;
+    margin-top: 10px;
+    height: 30px;
+    background:#000;
+    border: none;
+    border-bottom: 1px solid #fff;
+
+}
+input:hover{
+    border-bottom: 1px solid rgb(2, 45, 58);
+    color:#fff;
+}
+input::placeholder{
+    color: #999;
+}
+input[type="submit"] {
+    color:#999;
+    display: flex;
+}
+
+input[type="submit"]:hover{
+    border-bottom: 1px solid rgb(2, 45, 58);
+}
+.reg{
+    margin-left: 100px;
+    position: absolute;
+    top:130px;
+}
+
+.up{
+    visibility: hidden;
+    position:absolute;
+    z-index: 1;
+    width: 230px;
+    top:0;
+    height: 300px;
+    background:#000;
+    margin-right: 5px;
+    transition: 5s;
+    box-shadow:  1px 6px 6px 6px#111;
+}
+.re:hover .up{
+    visibility: visible;
+}
+body{
+    background: #000;
+}
+    </style>
+</html>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="bd.jpg" width="40px"/>
+            <b>BLACK DOX</b></div>
+            <div class="bars">
+                <button class="bar">HOME</button>
+                <button class="bar">ABOUT US</button>
+                <div class="log">
+                    <button class="bar">LOGIN</button>
+                    <div class="in"  id="login">
+                        <form>
+                     <center> <img src="login.jpg" width="50px;"   />   </center>  
+                     <input type="text"  placeholder="USERNAME"/>
+                     <input type="text"  placeholder="PASSWORD"/>
+                     
+                     <input type="submit"  value="LOGIN"/>
+                     <div class="re"> 
+                                             <input type="submit" class="reg" value="REGISTER"/>
+                    <div class="up"><center> <img src="add.jpg" width="50px;"   />   </center>  
+                        <input type="text"  placeholder="USERNAME"/>
+                        <input type="text"  placeholder="EMAIL"/>
+                        <input type="text"  placeholder="PASSWORD"/>
+                        <input type="text"  placeholder="CORNFIRM PASSWORD"/>
+                        
+                        
+                        <input type="submit"  value="REGISTER"/></div></div>
+
+                        
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+    <div class="home">
+        <div class="lg"><img src="bd.jpg" width="400px"/><div class="ab"><h1>   WELCOME TO BLACK DOX <br>
+            <i>LEARN: CODING,ELECTRONICS,IT</i></b></h1></div></div>
+    </div>
+</body>
